@@ -1,0 +1,29 @@
+.sizeSelectorContainer {
+     display: flex;
+      flex-direction: column;
+       gap: 0.5rem;
+     }
+     
+.sizeOptions {
+     display: flex;
+      gap: 0.5rem;
+       flex-wrap: wrap; 
+    }
+
+.sizeButton {
+  padding: 0.5rem 1rem;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  background-color: white;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.sizeButton:hover {
+     background-color: #111213;
+     color: white; }
+.activeSize { 
+    background-color: #111213; 
+    color: white;
+     font-weight: bold; 
+    }
